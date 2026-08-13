@@ -252,7 +252,7 @@
 	
 
 	// Set the date we're counting down to
-		var countDownDate = new Date("Dec 02, 2017 15:37:25").getTime();
+		var countDownDate = new Date("Apr 24, 2027 16:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
@@ -282,7 +282,7 @@
 		// If the count down is finished, write some text 
 		if (distance < 0) {
 		 clearInterval(x);
-		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
+		 document.getElementById("demo").innerHTML = "Już po wszystkim!";
 		}
 		}, 1000);	
 	
